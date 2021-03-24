@@ -1,0 +1,26 @@
+{
+  "name": "sistema-de-cadastro-de-membros",
+  "version": "1.0.0",
+  "description": "Sistema de Cadastro de Membros IADEP",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./index.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.electron.sistema-de-cadastro-de-membros",
+    "productName": "Sistema de Cadastro de Membros",
+    "directories": {
+      "buildResources": "./assets/",
+      "app": "./"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5"
+  }
+}
